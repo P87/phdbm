@@ -11,8 +11,8 @@ class Index extends Controller
     {
         $view = new View();
         $view
-            ->set('content', View::view('test', ['p' => '<p>Test right here</p>']))
-            ->set('title', 'Test');
+            ->set('content', View::view('login', ['p' => '<p>Test right here</p>']))
+            ->set('title', 'PHDBM - Database Monitor');
 
         $view->render();
     }
