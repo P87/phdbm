@@ -1,4 +1,4 @@
-phmvcf
+phdbm
 ======
 
-A Simple MVC Framework
+A database monitor
